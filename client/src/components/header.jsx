@@ -1,4 +1,4 @@
-// import logo from '../../public/automated-trial-log-logo-v5.png';
+import logo from '../assets/automated-trial-log-logo-v5.png';
 
 export default function Header({ user }) {
     return (
@@ -6,7 +6,7 @@ export default function Header({ user }) {
             <div className="!mx-auto !p-[0_10px] sm:!p-[0_20px] !flex !items-center !gap-[8px] sm:!gap-[20px] !min-h-0">
                 {/* Logo */}
                 <div className="!w-[60px] !h-[60px] sm:!w-[95px] sm:!h-[95px] !flex !items-center !justify-center !flex-shrink-0">
-                    <img src="/automated-trial-log-logo-v5.png" alt="ATL logo" className="!w-full !h-full !object-contain" />
+                    <img src={logo} alt="ATL logo" className="!w-full !h-full !object-contain" />
                 </div>
 
                 {/* Title Section */}
